@@ -1,4 +1,4 @@
-package net.nateyt1234.mod;
+package net.nateyt1234.neoforgetutorial;
 
 import java.util.List;
 

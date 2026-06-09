@@ -1,7 +1,7 @@
-package net.nateyt1234.mod.item;
+package net.nateyt1234.neoforgetutorial.item;
 
 import net.minecraft.world.item.Item;
-import net.nateyt1234.mod.MinecraftMod;
+import net.nateyt1234.neoforgetutorial.MinecraftMod;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;

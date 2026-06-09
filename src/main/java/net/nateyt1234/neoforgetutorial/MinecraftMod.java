@@ -1,7 +1,7 @@
-package net.nateyt1234.mod;
+package net.nateyt1234.neoforgetutorial;
 
 import net.minecraft.world.item.CreativeModeTabs;
-import net.nateyt1234.mod.item.ModItems;
+import net.nateyt1234.neoforgetutorial.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

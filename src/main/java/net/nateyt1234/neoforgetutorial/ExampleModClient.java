@@ -1,4 +1,4 @@
-package net.nateyt1234.mod;
+package net.nateyt1234.neoforgetutorial;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
