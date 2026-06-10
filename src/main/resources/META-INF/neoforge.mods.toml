@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+
+license = "All rights reserved"
+
+[[mods]]
+modId = "neoforgetutorial"
+displayName = "NeoForge Tutorial"
+version = "${file.jarVersion}"
+displayURL = "https://github.com/NateyT1234/NeoForge-Tutorial-1.21.X"
+authors = "NateyT1234"
+description = '''
+A simple tutorial mod with Bismuth.
+'''
+
+# Mod Icon
+logoFile = "logo.png"
+logoBlur = false
+
+[[dependencies.neoforgetutorial]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.neoforgetutorial]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
