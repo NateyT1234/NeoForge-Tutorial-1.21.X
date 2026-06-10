@@ -1,6 +1,7 @@
 package net.nateyt1234.neoforgetutorial;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.nateyt1234.neoforgetutorial.block.ModBlocks;
 import net.nateyt1234.neoforgetutorial.item.ModItems;
 import org.slf4j.Logger;
 
@@ -35,6 +36,7 @@ public class MinecraftMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,6 +54,10 @@ public class MinecraftMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BISMUTH);
             event.accept(ModItems.RAW_BISMUTH);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BISMUTH_BLOCK);
         }
     }
 
