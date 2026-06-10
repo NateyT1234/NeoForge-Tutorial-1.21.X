@@ -3,5 +3,8 @@
   "item.neoforgetutorial.raw_bismuth": "Raw Bismuth",
 
   "block.neoforgetutorial.bismuth_block": "Block of Bismuth",
-  "block.neoforgetutorial.bismuth_ore": "Bismuth Ore"
+  "block.neoforgetutorial.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.neoforgetutorial.bismuth_items": "Bismuth Items",
+  "creativetab.neoforgetutorial.bismuth_blocks": "Bismuth Blocks"
 }

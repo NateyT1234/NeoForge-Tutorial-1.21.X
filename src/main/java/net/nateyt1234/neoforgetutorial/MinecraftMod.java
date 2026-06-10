@@ -2,6 +2,7 @@ package net.nateyt1234.neoforgetutorial;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.nateyt1234.neoforgetutorial.block.ModBlocks;
+import net.nateyt1234.neoforgetutorial.item.ModCreativeModeTabs;
 import net.nateyt1234.neoforgetutorial.item.ModItems;
 import org.slf4j.Logger;
 
@@ -34,6 +35,8 @@ public class MinecraftMod {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
